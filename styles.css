@@ -54,6 +54,13 @@ font-size: 70px;
 
 #projects{
 	height: 100vmin;
+	padding-top: 100px;
+}
+
+#projects h2{
+	text-align: center;
+	font-size: 50px;
+	margin: 50px 0px 50px 0px;
 }
 
 #table{
@@ -68,8 +75,15 @@ font-size: 70px;
 	border-radius: 15px;
 	text-align: center;
 	padding:20px;
-	
 }
 
+#table td a{
+	text-decoration: none;	
+	color: white;
+}
+
+#table td a h1{
+	margin-bottom: 20px;
+}
 
 
