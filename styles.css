@@ -1,0 +1,144 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Armata';
+	font-size: 25px;
+}
+
+#navbar {
+	position: fixed;
+	background-color: green;
+	overflow: hidden;
+	width: 100%;
+}
+
+#navbar a {
+	float: right;
+	text-decoration: none;
+	text-align: center;
+	font-size: 20px;
+	padding: 20px 20px;
+	color: white;
+}
+
+#navbar a:hover {
+	background-color: white;
+	color: grey;
+}
+
+#welcome-section{
+
+	background-color: black;
+	color: white;
+	text-align: center;	
+	height: 100vmin;
+
+}
+
+#welcome-section h1{
+
+	padding-top: 20%;	
+	font-size: 70px;
+
+}
+
+#welcome-section h3{
+
+	color: gray;
+
+}
+
+
+#projects{
+	height: 100vmin;
+	padding-top: 100px;
+	height: 100vmin;
+}
+
+#projects h2{
+	text-align: center;
+	font-size: 50px;
+	margin: 50px 0px 50px 0px;
+}
+
+#table{
+
+	margin:auto;
+	padding: 20px;
+
+}
+
+#table td{
+	background-color: gray;
+	border-radius: 15px;
+	text-align: center;
+	padding:20px;
+}
+
+#table td a{
+	text-decoration: none;	
+	color: white;
+}
+
+#table td a h1{
+	margin-bottom: 20px;
+}
+
+#contact {
+	height: 30vmin;
+	background-color: gray;
+	padding-top: 100px;
+	width: 100%
+}
+
+#contact h2 {
+	font-size: 50px;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+#links {
+	text-align: center;
+	margin: auto;
+}
+
+#links a {
+	margin-left: auto;
+	text-decoration: none;
+	color: blue;
+	margin-right: 20px; 
+}
+
+table#table {
+    border-spacing: 55px;
+}
+
+@media only screen and (max-width: 800px) {     /*MOBILE*/
+
+
+	div#navbar {
+		position: relative;
+	}
+
+	div#contact {
+		
+		height: 70vmin;
+	}
+
+	td {
+		display: block;
+	}
+
+	#projects{
+		height: auto;
+	}
+
+
+	#table td{
+		margin-bottom: 50px;
+	}
+
+}
