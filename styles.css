@@ -9,8 +9,10 @@ body {
 }
 
 #navbar {
+	position: fixed;
 	background-color: green;
 	overflow: hidden;
+	width: 100%;
 }
 
 #navbar a {
@@ -26,3 +28,48 @@ body {
 	background-color: white;
 	color: grey;
 }
+
+#welcome-section{
+
+	background-color: black;
+	color: white;
+	text-align: center;	
+	height: 100vmin;
+
+}
+
+#welcome-section h1{
+
+padding-top: 20%;	
+font-size: 70px;
+
+}
+
+#welcome-section h3{
+
+	color: gray;
+
+}
+
+
+#projects{
+	height: 100vmin;
+}
+
+#table{
+
+	margin:auto;
+	padding: 20px;
+
+}
+
+#table td{
+	background-color: gray;
+	border-radius: 15px;
+	text-align: center;
+	padding:20px;
+	
+}
+
+
+
