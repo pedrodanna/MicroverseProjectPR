@@ -40,8 +40,8 @@ body {
 
 #welcome-section h1{
 
-padding-top: 20%;	
-font-size: 70px;
+	padding-top: 20%;	
+	font-size: 70px;
 
 }
 
@@ -112,4 +112,33 @@ font-size: 70px;
 	margin-right: 20px; 
 }
 
+table#table {
+    border-spacing: 55px;
+}
 
+@media only screen and (max-width: 800px) {     /*MOBILE*/
+
+
+	div#navbar {
+		position: relative;
+	}
+
+	div#contact {
+		
+		height: 70vmin;
+	}
+
+	td {
+		display: block;
+	}
+
+	#projects{
+		height: auto;
+	}
+
+
+	#table td{
+		margin-bottom: 50px;
+	}
+
+}
